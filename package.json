@@ -1,0 +1,29 @@
+{
+  "name": "jba-trial",
+  "version": "0.1.0",
+  "description": "technical trial from JBA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Justin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "ejs": "^2.5.2",
+    "eslint": "^3.7.1",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.10.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "express-handlebars": "^3.0.0"
+  }
+}
