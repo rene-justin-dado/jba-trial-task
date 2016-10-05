@@ -11,6 +11,7 @@ app.set('views', path.join(__dirname, 'views'))
 
 app.get('/', (req, res) => res.render('index.html'))
 app.get('/all-together', (req, res) => res.render('index2.html'))
-app.get('/measure-effectiveness', (req, res) => res.render('index3.html'))
+app.get('/measure-effectiveness-a', (req, res) => res.render('index3-a.html'))
+app.get('/measure-effectiveness-b', (req, res) => res.render('index3-b.html'))
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))

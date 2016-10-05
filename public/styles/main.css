@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 li {
   list-style: none;
 }
@@ -8,18 +13,20 @@ p {
 
 .next-page,
 .prev-page,
-.progress {  
-  bottom: 0;
+.progress {
+  bottom: 2em;
   position: absolute;
 }
 
 .next-page {
   right: 0;
+  right: 2em;
 }
 
 
 .prev-page {
   left: 0;
+  left: 2em;
 }
 
 #menu-button {
