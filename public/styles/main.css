@@ -1,7 +1,16 @@
-button.next-page {
+.next-page,
+.prev-page,
+.progress {  
   bottom: 0;
   position: absolute;
+}
+
+.next-page {
   right: 0;
+}
+
+.prev-page {
+  left: 0;
 }
 
 p {
