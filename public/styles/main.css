@@ -8,15 +8,6 @@ p {
   font-size: 3rem;
 }
 
-.col-centered {
-  float: none;
-  margin: 0 auto;
-}
-
-.row-spacing {
-  margin-top: 2rem;
-}
-
 #menu-button {
   height: 15%;
   width: 15%;
