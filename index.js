@@ -14,5 +14,6 @@ app.get('/all-together', (req, res) => res.render('index2.html'))
 app.get('/measure-effectiveness-a', (req, res) => res.render('index3-a.html'))
 app.get('/measure-effectiveness-b', (req, res) => res.render('index3-b.html'))
 app.get('/brands', (req, res) => res.render('index4.html'))
+app.get('/brand-likes', (req, res) => res.render('index5.html'))
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
