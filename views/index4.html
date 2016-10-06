@@ -25,21 +25,53 @@
            src="logos.jpg"
            alt="It's the best thing since sliced bread">
     </div>
+
     <div class="row">
       <p class="col-xs-10">Do you recognise any of them?</p>
     </div>
+
+    <div id="yesModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            <p>Yeah we thought so, in fact we wouldn’t be surprised if you recognised most of them!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="noModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">X</button>
+          </div>
+          <div class="modal-body">
+            <p>Wow, really? Not even one?! Before you continue, take a look at your phone, computer or TV and try to spot what brand it is.</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row">
-      <button type="button" class="col-xs-2 col-xs-offset-3 response">
+      <button type="button"
+              data-toggle="modal"
+              data-target="#yesModal"
+              class="col-xs-2 col-xs-offset-3 btn btn-info btn-xs response">
       Yes
       </button>
-      <button type="button" class="col-xs-2 col-xs-offset-3 response">
+
+      <button type="button"
+              data-toggle="modal"
+              data-target="#noModal"
+              class="col-xs-2 col-xs-offset-3 btn btn-info btn-xs response">
       No
       </button>
     </div>
     <div class="row">
       <button type="button"
-              class="prev-page col-xs-2"
-              onclick="()=>redirect">
+              class="prev-page col-xs-2">
         <img src="coursesButtons-04.png" alt="next page">
       </button>
       <div class="progress col-xs-6 col-xs-offset-2">
@@ -57,11 +89,13 @@
              style="width:25%"></div>
       </div>
       <button type="button"
-              class="next-page col-xs-2"
-              onclick="()=>redirect">
+              class="next-page col-xs-2">
         <img src="coursesButtons-03.png" alt="next page">
       </button>
     </div>
   </div>
+
+<script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

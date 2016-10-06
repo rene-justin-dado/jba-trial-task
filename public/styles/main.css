@@ -33,3 +33,7 @@ p {
   height: 15%;
   width: 15%;
 }
+
+.modal-body, .modal-header {
+  background-color: purple;
+}
