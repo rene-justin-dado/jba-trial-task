@@ -5,10 +5,11 @@ html, body {
 
 li {
   list-style: none;
+  font-size: 5rem;
 }
 
 p {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .next-page,

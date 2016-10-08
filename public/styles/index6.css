@@ -1,0 +1,20 @@
+li {
+  list-style: url(../question-mark.png);
+  margin: 3rem;
+  padding-bottom: 5rem;
+}
+
+.paperback:after {
+  content: "";
+  background: url(../paper-back.jpg) no-repeat;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.list {
+  margin-top: 6rem;
+}
