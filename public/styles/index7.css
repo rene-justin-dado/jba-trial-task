@@ -1,0 +1,22 @@
+.paperback:after {
+  content: "";
+  background: url(../paper-back.jpg) 80%;
+  opacity: 0.5;
+  height: 70%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+}
+
+.tab-buttons {
+  margin-top: 5rem;
+}
+
+.tab-button {
+  content: "";
+  background: url(../coursesButtons-01.png) 100% no-repeat;
+  padding: 2rem;
+  padding-left: 10rem;
+  color: white;
+}
