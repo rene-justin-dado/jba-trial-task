@@ -1,0 +1,10 @@
+.paperback:before {
+  content: "";
+  background: url(../paper-back.jpg) no-repeat;
+  opacity: 0.5;
+  height: 70%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+}
