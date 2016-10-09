@@ -1,0 +1,15 @@
+p {
+  font-size: 3rem;
+}
+
+.month-pop-up {
+  background-color: purple;
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+
+.modal-header {
+  color: white;
+  font-size: 5rem;  
+}
